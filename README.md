@@ -7,4 +7,4 @@ apt install dcraw
 
 ## acknowledge
 
-https://www.cnblogs.com/AlgrithmsRookie/p/11593090.html
+1 https://www.cnblogs.com/AlgrithmsRookie/p/11593090.html

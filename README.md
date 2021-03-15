@@ -1,6 +1,6 @@
 # fivek_dataset
 
 ```
-apt-get install imagemagick
-
+apt install imagemagick
+apt install dcraw
 ```

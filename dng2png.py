@@ -12,8 +12,8 @@ def dng2tiff(img_path):
     # with rawpy.imread(img_path) as raw:
     #     image = raw.postprocess(use_camera_wb=True, half_size=False,
     #                         no_auto_bright=True, output_bps=16)
-    output_path = img_path.replace("fivek/input", "fivek_png/input/a")
-    output_path = output_path.replace(".dng", ".png")
+    # output_path = img_path.replace("fivek/input", "fivek_png/input/a")
+    # output_path = output_path.replace(".dng", ".png")
     # imageio.imsave(output_path, image)
     os.system(f"dcraw -o 2 -6 -T {img_path}")
     print(img_path)
